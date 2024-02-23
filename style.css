@@ -1,45 +1,41 @@
 body {
-   background: rgb(125, 198, 205);
-   color: rgb(255, 255, 255);
+   background: rgba(0, 255, 4, 0.915);
+   color: rgb(45, 45, 45);
    padding: 10px;
-   font-family: arial;
+   font-family: Roboto;
 }
 #all-contents {
  max-width: 800px;
    margin: auto;
 }
-
-
 /* navigation menu */
 nav{
-   background: rgb(172, 206, 232);
+   background: rgb(101, 5, 255);
   margin: 0 auto;
    display: flex;
-   padding: 10px;
+   padding: 20px;
 }
 h1 {
    display: flex;
    align-items: center;
-   color: white;
+   color: rgb(8, 0, 0);
    flex: 1;
-   margin: 40px;
+   margin: 0;
 }
 #nav-ul {
    list-style-image: none;
 }
 .nav-li {
    display: inline-block;
-   padding: 0 10px;
+   padding: 0 20px;
 }
 a {
    text-decoration: none;
-   color: #fff;
+   color: #000000;
 }
-
-
 /* main container area beneath menu */
 main {
-   background: rgb(172, 206, 232);
+   background: rgb(245, 238, 219);
    display: flex;
 }
 .sidebar {
@@ -53,3 +49,110 @@ main {
    flex: 1;
    padding: 15px;
 }
+/* portfolio styles */
+.content h1 {
+  color: rgb(0, 0, 0);
+}
+
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color:#000000;
+}
+li {
+  color:black;
+}
+#portfolio li:hover {
+  background: #eee;
+}
+
+
+#portfolio a {
+  text-decoration: none;
+  color: #070000;
+}
+/* portfolio styles */
+#interests {
+   border: 4px rgb(14, 223, 28) ridge;
+   padding: 10px ;
+}
+h2, h3 {
+   margin: 25px;
+}
+
+
+p {
+  margin: 25px;
+ 
+}
+/* responsive web design */
+@media screen and (min-width: 120px) and (max-width: 1080px) {
+  main {
+    height: 100ch;
+    zoom: 1.5;
+    display: grid;
+  }
+
+
+  h1 {
+    font-size: 44px;
+  }
+
+
+  h2 {
+    font-size: 42px;
+  }
+
+
+  h3 {
+    font-size: 36px;
+  }
+
+
+  #all-contents {
+    height: 100ch;
+    margin: none;
+  }
+
+
+  a {
+    font-size: 42px;
+  }
+
+
+  .sidebar {
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .sidebar-img {
+    width: 100%;
+  }
+
+
+  p,
+  li {
+    font-size: 24px;
+  }
+
+
+}
+  .content {
+    align-content: center;
+    justify-content: center;
+  }
+#home p {
+  border-width:1px solid;
+}
+

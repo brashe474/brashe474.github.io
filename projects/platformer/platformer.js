@@ -39,6 +39,16 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
+    createPlatform(10, 600, 500, 20);
+    createPlatform(50, 480, 500, 20);
+    createPlatform(90, 400, 500, 20);
+    createPlatform(800, 580, 500, 20);
+    createPlatform(1100, 480, 80, 20);
+    createPlatform(930, 350, 80, 20);
+    createPlatform(1100, 200, 80, 20);
+    createCannon("top", 700, 900, 40,40,200 )
+    createCannon("right", 500, 900, 40,40,200 )
+
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
