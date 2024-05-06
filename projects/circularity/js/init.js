@@ -24,10 +24,20 @@ var circle;
 var circles =[];
 
         // TODO 2 : Create a function that draws a circle 
-        
-
+        // code to draw a circle
+        function drawCircle(){
+circle = draw.randomCircleInArea(canvas, true, true, "#999")
+    physikz.addRandomVelocity(circle, canvas); 
+    view.addChild(circle);
+    circles.push(circle);
+    }
         // TODO 3 / 7 : Call the drawCircle() function 
-
+var loopsCompleted = 0;
+while (loopsCompleted < 100) {
+// do something
+drawCircle()
+loopsCompleted++;
+}
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
